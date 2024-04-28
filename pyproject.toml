@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pdf-ai-clone"
+version = "0.1.0"
+description = ""
+authors = ["Azrex03 <24100307@lums.edu.pk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.2.0"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+ragatouille = "^0.0.8.post2"
+langchain = "^0.1.16"
+langchain-openai = "^0.1.4"
+langchain-core = "^0.1.46"
+langchain-community = "^0.0.34"
+pypdf = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
